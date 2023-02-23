@@ -3,14 +3,13 @@ from generate_music import *
 from training import *
 
 
-def main(filename):
+def main(filename, epoch, batch):
     fn = "./midi/original/" + filename + ".mid"
     # parts in the midi file, melody/soprano is defaulted 1
     parseMidi(fn, 1)
     # epoch size, batch size
-    training(64, 128)
-    for i in range(1,3):
-        outFn = filename+str(i)+"epoch64"
-        generator(outFn)
+    training(epoch, batch)
+    outFn = filename+"epoch" + epoch
+    generator(outFn)
 
-main("MyFoolishHeart")
+main("MyFoolishHeart", 32, 128)
