@@ -21,7 +21,7 @@ Easy-to-use Deep LSTM Neural Network to generate song like containing improvisat
  - TensorFlow
  - Python MIDI
 
-## Usage
+## Usage for individual file
 
   #### 1. Set up environment (conda recommended)
 
