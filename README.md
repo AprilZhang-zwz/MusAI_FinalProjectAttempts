@@ -6,7 +6,8 @@
   * generate bass and drums in the same way or extract the original bassline and drums 
   * train it on real Bill Evans input 
 
-## Usage: run the driver file with the name of the original training piece in the midi/original
+## Usage: 
+* run the driver file with the name of the original training piece in the midi/original
 
 # This repo is based on Deep Improvisation
 
