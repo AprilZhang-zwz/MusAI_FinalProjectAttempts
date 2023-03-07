@@ -1,5 +1,5 @@
 
-#### project based on deep improvisation 
+#### project based on deep improvisation developed by Tatsuya, 2017
 * todos:
   * bill Evans style
   * replicate this in magenta and see the difference 
