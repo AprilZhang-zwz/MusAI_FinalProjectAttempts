@@ -43,7 +43,7 @@ def generator(outputName):
   generated.extend(part_of_song)
   sys.stdout.write(str(generated))
 
-  chunk_length = 1000
+  chunk_length = len(music_as_chunks)
   for i in range(chunk_length):
     x = np.zeros((1, maxlen, len(unique_chunks)))
     for t, chunk in enumerate(part_of_song):
